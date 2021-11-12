@@ -66,8 +66,11 @@ jta_color_palettes <- list(
   `purple_ramp` = jta_cols("off_white", "jta_purple"),
   `red1_ramp` = jta_cols("off_white", "jta_red1"),
   `red2_ramp` = jta_cols("off_white", "jta_red2"),
-  `teal_ramp` = jta_cols("off_white", "jta_teal")
-)
+  `teal_ramp` = jta_cols("off_white", "jta_teal"),
+  `jta_rainbow` = jta_cols("jta_red2", "jta_blue2","jta_blue1",
+                           "jta_teal","jta_green2","off_white",
+                           "jta_marigold","jta_purple")
+
 
 #'Retrieve a Palette
 #'
